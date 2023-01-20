@@ -2,6 +2,7 @@
 @import url(//db.onlinewebfonts.com/c/83c87eaab9535ea533cabc2f921bf64a?family=AdiHaus);
 @font-face {font-family: "AdiHaus1"; src: url("//db.onlinewebfonts.com/t/d6caca00166438cde071a59b0f091f7a.eot"); src: url("//db.onlinewebfonts.com/t/d6caca00166438cde071a59b0f091f7a.eot?#iefix") format("embedded-opentype"), url("//db.onlinewebfonts.com/t/d6caca00166438cde071a59b0f091f7a.woff2") format("woff2"), url("//db.onlinewebfonts.com/t/d6caca00166438cde071a59b0f091f7a.woff") format("woff"), url("//db.onlinewebfonts.com/t/d6caca00166438cde071a59b0f091f7a.ttf") format("truetype"), url("//db.onlinewebfonts.com/t/d6caca00166438cde071a59b0f091f7a.svg#AdiHaus") format("svg"); }
 @font-face {font-family: "AdiHaus2"; src: url("//db.onlinewebfonts.com/t/83c87eaab9535ea533cabc2f921bf64a.eot"); src: url("//db.onlinewebfonts.com/t/83c87eaab9535ea533cabc2f921bf64a.eot?#iefix") format("embedded-opentype"), url("//db.onlinewebfonts.com/t/83c87eaab9535ea533cabc2f921bf64a.woff2") format("woff2"), url("//db.onlinewebfonts.com/t/83c87eaab9535ea533cabc2f921bf64a.woff") format("woff"), url("//db.onlinewebfonts.com/t/83c87eaab9535ea533cabc2f921bf64a.ttf") format("truetype"), url("//db.onlinewebfonts.com/t/83c87eaab9535ea533cabc2f921bf64a.svg#AdiHaus") format("svg"); }
+
 :root{
     --pink:#e84393;
 	--grau:#333;
@@ -30,7 +31,7 @@ section{
 	padding:2rem 9%; 
 }
 
-/* navigationsleiste beginnt*/
+/* Navigationsleiste startet*/
 
 .heading{
     text-align: center;
@@ -124,9 +125,8 @@ header .fa-bars{
 	display: none;
 }
 
-/* navigationsleite endet hier*/
-
-/* 1. abschnitt beginnt*/
+/* Navigationsleite endet hier*/
+/* 1. abschnitt startet*/
 
 .home {
     display: flex;
@@ -173,7 +173,8 @@ header .fa-bars{
     border: 2px solid black;
 }
 
-/* 2. abschnitt beginnt*/
+/* 1. Abschnitt endet*/
+/* 2. abschnitt startet*/
 
 .about {
 	background-color: rgb(176, 176, 197);
@@ -233,6 +234,7 @@ header .fa-bars{
 	font-weight: bold; 
 }
 
+/*2. Abschnitt endet*/
 /*Icons Container startet*/
 
 .icons-container{
@@ -271,7 +273,6 @@ header .fa-bars{
 }
 
 /*Icons Container endet*/
-
 /*Für wen soll's sein? startet*/
 
 .ueberschrift {
@@ -318,14 +319,12 @@ header .fa-bars{
 }
 
 /*Für wen soll's sein? endet*/
-
-/*Adibrush beginnt*/
+/*Adibrush Produkte startet*/
 
 .products .box-container{
     display: flex;
     flex-wrap: wrap;
     gap: 4rem;
-	
 }
 
 .products .box-container .box {
@@ -408,11 +407,10 @@ header .fa-bars{
 }
 
 /*4. Adibrush Produkte enden*/
-
 /*5. Abschnitt startet*/
 
 .words {
-	display: flex; /* display words in a row */
+	display: flex; 
 	align-items: center;
 	font-size: 30px;
 	font-weight: bold;
@@ -422,7 +420,7 @@ header .fa-bars{
   
 .word {
 	position: relative;
-	margin-right: 60px; /* add a margin between words */
+	margin-right: 60px; 
 	font-weight: bold;
 	font-family: var(--schriftartdick);
 	margin-top: 10px;
@@ -430,11 +428,11 @@ header .fa-bars{
 }
   
 .line {
-	width: 110%; /* make the line slightly longer than the word */
-	height: 1px; /* line height */
-	background-color: black; /* line color */
+	width: 110%; 
+	height: 1px; 
+	background-color: black; 
 	position: absolute;
-	bottom: -5px; /* move the line down from the word */
+	bottom: -5px; 
 	left: 0;
 	transition: height 0.5s ease-in-out;
 }
@@ -443,18 +441,16 @@ header .fa-bars{
 	height: 6px; 
 }
 
-
 /*5. Abschnitt endet*/
+/*Letzter Abschnitt startet*/
 
-/*Letzter Abschnitt beginnt*/
 .home2 .content2 p {
     font-size: 3.5rem;
     color: black;
     font-family: var(--schriftartdick);
     font-weight: 700;
-    transform: translateY(-20px); /* Verschiebt den Text um 2 cm nach oben */
+    transform: translateY(-20px);
 }
-
 
 .home2 .btn {
     padding: 1rem 2rem;
@@ -465,7 +461,7 @@ header .fa-bars{
     text-decoration: none;
     color: white;
     border: 2px solid black;
-    padding-top: 10px; /* Abstand von 1 cm */
+    padding-top: 10px; 
 
 }
 
@@ -491,8 +487,7 @@ header .fa-bars{
 }
 
 /*Letzter Abschnitt endet*/
-
-/*footer beginnt*/
+/*Footer startet*/
 
 .footer {
     background-color: black;
@@ -529,8 +524,8 @@ header .fa-bars{
     color: var(--hellgrau);
     text-decoration: underline;
 }
-
-/* media queries  */
+/* Footer endet */
+/* Media Queries */
 
 @media (min-width: 768px){
 	.ueberschrift {
