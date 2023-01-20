@@ -125,6 +125,11 @@ header .fa-bars{
 	display: none;
 }
 
+header .logo{
+    height: 35px; 
+    width: 65px; 
+}
+
 /* Navigationsleite endet hier*/
 /* 1. abschnitt startet*/
 
@@ -172,6 +177,10 @@ header .fa-bars{
     color: white;
     border: 2px solid black;
 }
+.home .content .btn:hover{
+   color: grey;
+}
+
 
 /* 1. Abschnitt endet*/
 /* 2. abschnitt startet*/
@@ -228,10 +237,10 @@ header .fa-bars{
 	font-family: var(--schriftartdick);
 }
 
-.calltoaction:hover{
-    background-color: white;
-	color: black;
-	font-weight: bold; 
+.calltoaction:hover {
+    color: white!important;
+    background-color: black;
+    text-decoration: none;
 }
 
 /*2. Abschnitt endet*/
@@ -297,7 +306,9 @@ header .fa-bars{
 .fuerwen .personen .person {
     position: relative;
     width: 30%;
+    height: 20%;
     text-align: center;
+    align-items: center;
 }
 
 .fuerwen .personen .person img {
@@ -464,6 +475,9 @@ header .fa-bars{
     padding-top: 10px; 
 
 }
+.home2 .btn:hover{
+    color: grey;
+ }
 
 .home2{
     display: flex;
@@ -485,6 +499,7 @@ header .fa-bars{
 	font-family: var(--schriftartdick);
 	font-weight: 700;
 }
+
 
 /*Letzter Abschnitt endet*/
 /*Footer startet*/
@@ -577,7 +592,7 @@ header .fa-bars{
         position:absolute;
         top:100%; left:0; right:0;
         background:#eee;
-        border-top: .1rem solid rgba(0,0,0,.1);
+        border-top: 0 solid rgba(255, 255, 255, 0.1);
         clip-path: polygon(0 0, 100% 0, 100% 0, 0 0);
     }
 
@@ -608,6 +623,14 @@ header .fa-bars{
     .icons-container .icons span{
         font-size: 1.7rem;
     }
+    header .logo{
+        height: 25px; 
+        width:50px; 
+    }
+  
+    .products .box-container{
+        margin-left: 47px; 
+    }
     
 }
 
@@ -620,7 +643,8 @@ header .fa-bars{
     .heading{
         font-size: 3rem;
     }
-
+    
+   
 }
 
 @media (max-width: 375px) {
@@ -630,6 +654,7 @@ header .fa-bars{
     .home2 {
         max-width: 100%;
     }
+   
 }
 
 @media (max-width:768px){
@@ -651,6 +676,7 @@ header .fa-bars{
 
     header{
         padding:2rem;
+        width: 100%;
     }
 
     section{
@@ -660,9 +686,7 @@ header .fa-bars{
     .home{
         width: 100%;
     }
-    header {
-        width: 100%;
-    }
+
     body{
         width: 160%;
     }
@@ -673,6 +697,22 @@ header .fa-bars{
         width: 150%;
     }
 }
-
-
-
+@media  (min-device-width: 300px) and (max-device-width:390) {
+    header .logo{
+        height: 20px; 
+        width: 35px; 
+    }
+    header .navbar {
+        width: 50px;
+        top: 15px;
+        min-height: 70px;
+    }
+    header .logo{
+        height: 25px; 
+        width: 40px; 
+    }
+   
+}
+@media screen and (min-width: 820px){
+    
+}
